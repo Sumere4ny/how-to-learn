@@ -55,6 +55,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -164,6 +165,42 @@
   font-size: 18px;
   line-height: 1.2;
   margin: 20px 0 0;
+}
+
+.feynman {
+  font-size: 36px;
+  height: 790px;
+  position: relative;
+  background: #F2F2F2 url(../images/feynman.png) no-repeat bottom left;
+  background-size: 867px 637px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  width: 648px;
+  margin: 0 auto;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  text-align: center;
+  margin: 70px auto 0;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  cursor: pointer;
 }
 
 /* и элемента с модификатором вида ключ-значение */
